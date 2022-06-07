@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background-color: #25283D;*/
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 800px;
+    height: 500px;
+    background-color: #553E4E;
+    margin-top: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slider--width {
+    height: 100%;
+    display: flex;
+    transition: all ease 0.4s;
+}
+
+.slider--item {
+    width: 800px;
+    height: inherit;
+    background-position: center;
+    background-size: cover;
+}
